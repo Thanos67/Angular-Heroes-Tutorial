@@ -1,0 +1,45 @@
+h2 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[text] {
+    color: crimson;
+    font-family: Cambria, Georgia;
+  }
+  
+
+
+ 
+  button.clear {
+    font-family: Arial;
+    background-color: rgb(103, 233, 146);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+    cursor: hand;
+    font-size: 26px;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.8s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  button:hover {
+    background-color: rgb(17, 134, 17);
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+    opacity: 0.6;
+  cursor: not-allowed;
+  }
+  button.clear {
+    color: #333;
+    margin-bottom: 12px;
+  }
+
+  
